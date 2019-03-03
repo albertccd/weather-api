@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- bootstrap -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- end bootstrap -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h2 id="cityName" class="display-4 text-center"></h2>
+      <h2 id="weatherCondition" class="display-3 text-center"></h2>
+      <h1 id="temperature" class="display-2 text-center"></h1>
+      <p id="date" class="lead text-center"></p>
+      <p class="lead windSpeed text-center"></p>
+    </div>
+    <div class="input-group">
+      <input id="cityInput" type="text" class="form-control" placeholder="City name" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+      <div class="input-group-append" id="button-addon4">
+        <button class="btn btn-outline-primary" type="button">Search</button>
+      </div>
+    </div>
+  </div>
+
+
+<!-- jquery & JavaScript-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+  <script src="weather.js"></script>
+<!-- end jquery -->
+</body>
+</html>
